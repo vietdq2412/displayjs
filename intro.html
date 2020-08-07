@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+        function showMessage() {
+            alert('Xin chào!');
+        }
+    </script>
+
+    <div id="messageDiv"></div>
+    <button type="button" onclick="showMessage();">Click Me!2</button>
+    <script>
+        function showMessage() {
+            document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+        }
+    </script>
+    <br><br><br><br><br>
+    <button type="button" onclick="showMessage3();"> clickk</button>
+    <script>
+        function showMessage3() {
+            document.write('chaoooooooo');
+        }
+    </script>
+
+    <br><br><br><br><br>
+    <button type="button" onclick="click1();">clickkkk2</button>
+    <script>
+        function click1() {
+            console.log('choasoo');
+        }
+    </script>
+</body>
+
+</html>
